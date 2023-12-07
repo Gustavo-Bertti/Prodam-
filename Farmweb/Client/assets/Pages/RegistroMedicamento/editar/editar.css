@@ -1,0 +1,42 @@
+.body__main{
+    width: 100%;
+}
+.content__main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: var(--fonte);
+}
+.content__main h1{
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    width: 200px;
+    border-radius: 10px;
+    padding: 0.2em 0.8em;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+.btn-submit{
+    color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte);
+    width: 200px;
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+
+}

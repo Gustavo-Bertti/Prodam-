@@ -1,0 +1,31 @@
+.container__main{
+    width: 100%;
+    display: flex;
+}
+.content__cadastro__main, .content__registro__main{
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.titulo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte);
+}
+.link__cadastro,.link__registro{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: var(--fonte);
+    background-color: var(--cor-secundaria);
+    width: 150px;
+    border-radius: 10px;
+    padding: 0.3em;
+    color: var(--cor-principal);
+    cursor: pointer;
+}
+.link__cadastro:hover, .link__registro:hover{
+    transition: 115ms;
+    width: 18%;
+} 

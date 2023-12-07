@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="./cadastro.css">
+    <title>Farm - Cadastro medicamentos</title>
+</head>
+<body>
+    <header class="container__header">
+        <a href="../../../index.html" class="link__header"><img src="../../Imagens/farmLogo.png" alt="Logo do site chamado Farm" class="logo__header"></a>
+    </header>
+    <main class="body__main">
+        <section class="container__main">
+            <form action="#" class="content__main" id="meuFormulario">
+                <h1>Fornecedor</h1>
+                <div>
+                    <label for="nome_fornecedor">Nome do fornecedor:</label>
+                    <input type="text" name="nome_fornecedor"  minlength="1" maxlength="255" placeholder="Exemplo: Manoel" >
+
+                    <label for="telefone_fornecedor">Telefone do fornecedor:</label>
+                    <input type="text" name="telefone_fornecedor"  minlength="1" maxlength="11" placeholder="exemplo: 11988223350">
+
+                    <label for="endereco_fornecedor">Endereço do fornecedor:</label>
+                    <input type="text" name="endereco_fornecedor"  minlength="1" maxlength="255" placeholder="exemplo: Rua Nasci Aqui">
+                </div>
+
+                <h1>Categoria do remedio</h1>
+                <div>
+                    <label for="nome_categoria">Nome da categoria:</label>
+                    <input type="text" name="nome_categoria"  minlength="1" maxlength="255" placeholder="exemplo: terapêutico">
+
+                    <label for="descricao_categoria">Descrição da categoria:</label>
+                    <input type="text" name="descricao_categoria"  minlength="1" maxlength="255">
+
+                </div>
+
+                <h1>Medicamento</h1>
+                <div>
+                    <label for="nome_medicamento">Nome do medicamento:</label>
+                    <input type="text" name="nome_medicamento" minlength="1" maxlength="255" placeholder="exemplo: dipirona" >
+
+                    <label for="dosagem_categoria">Dosagem do medicamento:</label>
+                    <input type="text" name="dosagem_medicamento" minlength="1" maxlength="50" placeholder="exemplo: 20gramas">
+
+                    <label for="forma_medicamento">Forma Farmaceutica do medicamento:</label>
+                    <input type="text" name="forma_medicamento" minlength="1" maxlength="50" placeholder="exemplo: sólido">
+
+                    <label for="fabricante_medicamento">Fabricante do medicamento:</label>
+                    <input type="text" name="fabricante_medicamento" minlength="1" maxlength="100" placeholder="exemplo: genérico">
+
+                    <label for="data_medicamento">Data de validade do medicamento:</label>
+                    <input type="text" name="data_medicamento" minlength="10" maxlength="10" placeholder="exemplo: 06/12/2023">
+
+                    <button type="submit" class="btn-submit">Cadastrar</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer especial">
+        <h1>Autor: Gustavo Bertti</h1>
+    </footer>
+    <script src="./cadastro.js" defer></script>
+</body>
+</html>

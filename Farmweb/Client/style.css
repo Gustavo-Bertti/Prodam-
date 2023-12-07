@@ -1,0 +1,40 @@
+/* ESTILAZAÇÃO PADRÃO(O QUE VAI SER REPETIDO MAIS DE UMA VEZ NO SITE) */
+/* importação de fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* ----------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-principal: #ffff;
+    --cor-secundaria: #F95B5B;
+    --fonte:'Poppins', sans-serif;
+
+}
+.container__header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    font-family: var(--fonte);
+    color: var(--cor-principal);
+}
+.especial{
+    position: static;
+    margin-top: 30px;
+}

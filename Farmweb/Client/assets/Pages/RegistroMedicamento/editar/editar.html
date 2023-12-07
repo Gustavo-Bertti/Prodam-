@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../style.css">
+    <link rel="stylesheet" href="./editar.css">
+    <title>Farm - Editar</title>
+</head>
+<body>
+    <header class="container__header">
+        <a href="../../../../index.html" class="link__header"><img src="../../../Imagens/farmLogo.png" alt="Logo do site chamado Farm" class="logo__header"></a>
+    </header>
+    <main class="body__main">
+        <section class="container__main">
+            <form action="#" class="content__main" id="meuFormulario">
+
+                <h1>Medicamento</h1>
+                <div>
+                    <label for="nome_medicamento">Nome do medicamento:</label>
+                    <input type="text" name="nome_medicamento" minlength="1" maxlength="255" placeholder="exemplo: dipirona" id="nome">
+
+                    <label for="dosagem_categoria">Dosagem do medicamento:</label>
+                    <input type="text" name="dosagem_medicamento" minlength="1" maxlength="50" placeholder="exemplo: 20gramas" id="dosagem">
+
+                    <label for="forma_medicamento">Forma Farmaceutica do medicamento:</label>
+                    <input type="text" name="forma_medicamento" minlength="1" maxlength="50" placeholder="exemplo: sólido" id="forma">
+
+                    <label for="fabricante_medicamento">Fabricante do medicamento:</label>
+                    <input type="text" name="fabricante_medicamento" minlength="1" maxlength="100" placeholder="exemplo: genérico" id="fabricante">
+
+                    <label for="data_medicamento">Data de validade do medicamento:</label>
+                    <input type="text" name="data_medicamento" minlength="10" maxlength="10" placeholder="exemplo: 06/12/2023" id="data">
+
+                    <button type="submit" class="btn-submit">Atualizar</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer especial">
+        <h1>Autor: Gustavo Bertti</h1>
+    </footer>
+    <script src="./editar.js" defer></script>
+</body>
+</html>
